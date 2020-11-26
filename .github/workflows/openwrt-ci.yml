@@ -8,7 +8,7 @@ name: OpenWrt-CI
 on:
   push:
     branches: 
-     - master
+     - 19.07
    schedule:
      - cron: 0 20 * * *
    release:
